@@ -5,6 +5,11 @@ function limparCampo() {
     campo.value = '';
 };
 
+function esconderResultado() {
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = ''
+};
+
 function sortearAmigo() {
     let resposta = document.getElementById('resultado');
 
@@ -39,5 +44,6 @@ function adicionarAmigo() {
     };
 
     limparCampo();
+    esconderResultado();
     listarAmigos();
 };
