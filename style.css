@@ -160,3 +160,25 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Botão de esconder resultado */
+.button-hide {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    color: var(--color-text);
+    background-color: var(--color-tertiary);
+    font-size: 16px;
+    padding: 8px;
+}
+
+.button-hide img {
+    height: 35px;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.button-hide:hover {
+    background-color: #a1a1a1;;
+}
